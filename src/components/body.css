@@ -8,20 +8,92 @@
     text-align: center;
     height: 100vh;
     width: 100%;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 }
 .mainpage .maintext{
     padding: 100px;
-    width: ;
 }
 .mainpage .mainpics{
     width: 800px;
     height: 88%;
 }
-.body2 .first{
+.first{
     display: flex;
     flex-direction: row;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    height: 80vh;
+    align-items: center;
+    padding: 0 10px 0 0;
 }
-.body2 .second{
+.first p{
+    text-align: center;
+    justify-content: center;
+    font-size: 1.8em;
+    padding: 20px;
+    margin: 0 ;
+}
+.first img{
+    width: 700px;
+    height: 70%;
+}
+.second{
     display: flex;
     flex-direction: row;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    height: 80vh;
+    align-items: center;
+    text-align: center;
+    padding: 0 0 0 10px;
 }
+.second p{
+    text-align: center;
+    justify-content: center;
+    font-size: 1.8em;
+    padding: 20px;
+    margin: 0 ;
+}
+.second img{
+    width: 700px;
+    height: 70%;
+}
+
+/* foot styling */
+
+.footer {
+    height: 100%vh;
+    width: 50%vw;
+    background-color: var(--textcolor);
+    color: var(--background);
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px 10px 40px;
+  }
+  .footer .text-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .text-footer .left-footer p {
+    margin-bottom: 30px;
+  }
+  .text-footer .right-footer p {
+    margin-bottom: 30px;
+  }
+  .text-footer .right-footer label,
+  button,
+  input {
+    margin-right: 5px;
+    font-size: 1.1rem;
+  }
+  .socials {
+    margin-top: 30px;
+    text-align: center;
+  }
+  .socials i {
+    padding: 10px;
+    font-size: 1.7rem;
+  }
+  .socials i:hover {
+    cursor: pointer;
+  }
+  
