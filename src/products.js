@@ -1,11 +1,15 @@
-import product1 from './assets/1.png'
-import product2 from './assets/2.png'
-import product3 from './assets/3.png'
+import product1 from './assets/1.webp'
+import product2 from './assets/2.webp'
+import product3 from './assets/3.jpg'
 import product4 from './assets/4.png'
-import product5 from './assets/5.png'
+import product5 from './assets/5.webp'
 import product6 from './assets/6.webp'
 import product7 from './assets/7.webp'
 import product8 from './assets/8.webp'
+import product9 from './assets/9.jpg'
+import product10 from './assets/10.webp'
+import product11 from './assets/11.jpg'
+import product12 from './assets/12.avif'
 
 export const PRODUCTS = [
     {
@@ -53,7 +57,31 @@ export const PRODUCTS = [
     {
         id: 8,
         productName: 'Face Cap',
-        price: 10.0,
+        price: 200.0,
         productImage: product8,
+    },
+    {
+        id: 9,
+        productName: 'Shirt',
+        price: 90.0,
+        productImage: product9,
+    },
+    {
+        id: 10,
+        productName: 'Gucci',
+        price: 10.0,
+        productImage: product10,
+    },
+    {
+        id: 11,
+        productName: 'Dolce',
+        price: 14.0,
+        productImage: product11,
+    },
+    {
+        id: 12,
+        productName: 'Gabana',
+        price: 100.0,
+        productImage: product12,
     },
 ];
