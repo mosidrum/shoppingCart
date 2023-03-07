@@ -1,12 +1,14 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './App.css';
 import {Navbar} from './components/navbar'
 import {Shop} from './pages/shop/shop'
 import {Cart} from './pages/cart/cart'
 import { Home } from './pages/home';
 import { Contact } from './pages/contact-us';
+import { Footer } from './components/footer';
 import { ShopContextProvider } from './context/shop-context';
+import './App.css';
+import './components/body.css';
 
 
 function App() {
@@ -21,6 +23,7 @@ function App() {
             <Route path='/contact' element={<Contact />}/>
             <Route path='/cart' element={<Cart />} />
           </Routes>
+          <Footer />
        </Router>
       </ShopContextProvider>
     </div>
